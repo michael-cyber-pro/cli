@@ -75,7 +75,9 @@ To build binaries for a release, use the --release flag. The binaries for one or
 more specified release targets are built in a "release/" directory in the
 project's source directory. Specify the release targets with GOOS:GOARCH build
 tags. If the optional --release.targets is not specified, a binary is created
-for your current environment.
+for your current environment. 
+
+	testBranch
 
 	ignite chain build --release -t linux:amd64 -t darwin:amd64 -t darwin:arm64
 `,
