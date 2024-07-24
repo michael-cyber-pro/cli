@@ -1,3 +1,3 @@
-FROM michael/ignite-cli:latest
+FROM michaell404/ignite-cli:latest
 
 USER root
