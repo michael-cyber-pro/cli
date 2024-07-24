@@ -1,3 +1,3 @@
-FROM ignitehq/cli:latest
+FROM michael/ignite-cli:latest
 
 USER root
